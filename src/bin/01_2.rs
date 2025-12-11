@@ -3,6 +3,9 @@ const INPUT: &str = include_str!("01_input.txt");
 // const INPUT: &str = include_str!("01_input_custom.txt");
 const START_POSITION: i32 = 50;
 
+/**
+ * This solution is not performant at all
+ */
 fn main() {
     let mut current_position: i32 = START_POSITION;
     let mut zero_count: i32 = 0;
